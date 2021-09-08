@@ -38,8 +38,12 @@ const Navbar = () => {
                 </li>
               </ul>
               <form className="d-flex resposive-nav-btn">
+                <NavLink exact to="/signup">
                 <button className="btn   btn_style" type="submit">Sign Up</button>
+                </NavLink>
+                <NavLink exact to="/login">
                 <button className="btn  btn_style" type="submit">Log In</button>
+                </NavLink>
               </form>
             </div>
           </div>
