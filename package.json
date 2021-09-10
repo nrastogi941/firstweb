@@ -1,6 +1,6 @@
 {
-  "name": "firstproject",
   "homepage": "http://nrastogi941.github.io/firstweb",
+  "name": "firstproject",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
