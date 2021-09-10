@@ -152,9 +152,9 @@ h1,h2,h3,h4,h5,h6{
   }
 
   .form-control-text{
-    position: absolute;
+    /* position: absolute; */
     height:4rem;
-    width:49%;
+    width:100%;
     border:none;
     outline-style: none;
     padding-right: 15px;
@@ -508,8 +508,8 @@ h1,h2,h3,h4,h5,h6{
     width: 60%;
     height: 58%;
     left: 35%;
-    top: 15%;
-    margin-bottom: -45rem;
+    /* top: 15%; */
+    margin-bottom: -65rem;
     /* border: 2px solid red; */
 }
 
@@ -520,8 +520,8 @@ h1,h2,h3,h4,h5,h6{
 
   .header-right-side img{
     width: 70%;
-    margin-top: 5rem;
-    margin-bottom: -25rem;
+    margin-top: 8rem;
+    margin-bottom: -5rem;
   }
 
   .header-left-side .main-hero-img2{
@@ -531,12 +531,13 @@ h1,h2,h3,h4,h5,h6{
   .input-group .input-group-button{
     right: 26%;
     width: 30%;
+    /* visibility: hidden; */
   }
 
-  .input-group .btn_style:hover{
+  /* .input-group .btn_style:hover{
     cursor: pointer;
     border: 2px solid red;
-  }
+  } */
 
   .work-container{
     /* width: 50vh; */

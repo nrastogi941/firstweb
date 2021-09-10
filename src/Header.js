@@ -71,10 +71,10 @@ const Header = () => {
                             <h3>Get Early Acess For You</h3>
                             <div className="input-group mt-3 ">
                             <form method="POST">
-                                <input type="text" className="rounded-pill  me-3 p-2 form-control-text"  placeholder="Enter Your Email" name="email" value={userdata.email} onChange={useremail} />
+                                <input type="text" className="rounded-pill form-control-text me-3 p-2"  placeholder="Enter Your Email" name="email" value={userdata.email} onChange={useremail} />
                                 </form>
-                                <div className="input-group-button btn_style" onClick={postdata}>
-                                    Get it now
+                                <div>
+                                    <button onClick={postdata} className="btn_style">Get it now</button>
                                 </div>
                             </div>
                         </div>
